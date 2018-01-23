@@ -59,8 +59,6 @@ pg.id = "name7";
 var peterGriffin = document.createTextNode("Peter Griffin");
 pg.appendChild(peterGriffin);
 nameParent.appendChild(pg);
-
-
  
 /*8. Tim Duncan
 
@@ -68,7 +66,11 @@ Create a div element give it an id of "alias8". Inside this div element, give it
 
 Append this div element to the aliasParent div.*/
 
-
+var timD = document.createElement("div");
+timD.id = "alias8";
+var timDuncan = document.createTextNode("Old Man Riverwalk");
+timD.appendChild(timDuncan);
+aliasParent.appendChild(timD);
 
 //Final Boss
 /*9. Create your own profile.*/
