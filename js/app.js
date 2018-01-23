@@ -33,7 +33,7 @@ ppap.innerHTML = "Concatenation";
 Find the div with the class name of "profile" and replace the n/a with a verse from your favorite Prince song.*/
 
 var purpleRain = document.getElementsByClassName("profile");
-purpleRain.innerHTML = "Laughing in the Purple Rain";
+purpleRain[0].innerHTML = "Laughing in the Purple Rain";
 
 /*5. Bruce Lee
 
