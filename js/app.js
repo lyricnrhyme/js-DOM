@@ -45,7 +45,8 @@ legends[1].innerHTML = "Knowledge will give you power, but character repect.";
 
 Find the div with the class name of "alias" and replace the n/a with your favorite character that Sammy portrayed.*/
 
-
+var samuel = document.getElementsByClassName("alias");
+samuel[2].innerHTML = "Nick Fury";
 
 /*7. Peter Griffin
 
