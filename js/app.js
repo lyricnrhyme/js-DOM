@@ -75,3 +75,35 @@ aliasParent.appendChild(timD);
 //Final Boss
 /*9. Create your own profile.*/
 
+var jamieImage = document.createElement("IMG");
+jamieImage.setAttribute("src", "https://www.yourpetspace.info/wp-content/uploads/2015/03/Panda-In-Snow.jpg");
+jamieImage.setAttribute("alt", "I'm Red Panda");
+var noImage = document.getElementsByTagName("img")[8];
+var jamieDiv = document.getElementsByClassName("block3 col-sm-4")[2];
+jamieDiv.replaceChild(jamieImage, noImage);
+
+var jamieN = document.createElement("div");
+jamieN.id = "name9";
+var jamieName = document.createTextNode("Jamie");
+jamieN.appendChild(jamieName);
+jamieDiv.appendChild(jamieN);
+
+var jamieP = document.createElement("div");
+jamieP.id = "position9";
+var jamiePosition = document.createTextNode("Jan Prep Student");
+jamieP.appendChild(jamiePosition);
+jamieDiv.appendChild(jamieP);
+
+var jamieA = document.createElement("div");
+jamieA.id = "alias9";
+var jamieAlias = document.createTextNode("Part-time Red Panda");
+jamieA.appendChild(jamieAlias);
+jamieDiv.appendChild(jamieA);
+
+var jamieB = document.createElement("div");
+jamieB.id = "bio9";
+var jamieBio = document.createTextNode("Work Hard, Play Hard");
+jamieB.appendChild(jamieBio);
+jamieDiv.appendChild(jamieB);
+
+
