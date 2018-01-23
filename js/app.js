@@ -32,13 +32,14 @@ ppap.innerHTML = "Concatenation";
 
 Find the div with the class name of "profile" and replace the n/a with a verse from your favorite Prince song.*/
 
-var purpleRain = document.getElementsByClassName("profile");
-purpleRain[0].innerHTML = "Laughing in the Purple Rain";
+var legends = document.getElementsByClassName("profile");
+legends[0].innerHTML = "Laughing in the Purple Rain";
 
 /*5. Bruce Lee
 
 Find the div with the class name of "profile" and replace the n/a with a quote from the legend himself.*/
 
+legends[1].innerHTML = "Knowledge will give you power, but character repect.";
 
 /*6. Samuel L Jackson
 
