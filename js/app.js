@@ -54,6 +54,12 @@ Create a div element and give it an id of "name7". Inside this div element, give
 
 Append this div element to the nameParent div*/
 
+var pg = document.createElement("div");
+pg.id = "name7";
+var peterGriffin = document.createTextNode("Peter Griffin");
+pg.appendChild(peterGriffin);
+nameParent.appendChild(pg);
+
 
  
 /*8. Tim Duncan
